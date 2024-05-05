@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contenedor-header {
+    background: rgb(54, 51, 51);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+}
+
+.contenedor-header header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7.5px 10px;
+}
+
+.contenedor-header header .logo a {
+    font-family: 'Righteous';
+    font-size: 20px; 
+    color: #1CB698;
+    margin-left: 32.5px; 
+    text-decoration: none;
+}
+
+.contenedor-header header ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: 15px; 
+}
+
+.contenedor-header header nav ul li a {
+    font-size: 12.5px; 
+    color: #fff;
+    margin: 0 7.5px; 
+    padding: 1.5px;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover {
+    color: #1CB698;
+}
+
+body {
+    font-size: 12px; 
+}
+
+.inicio {
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    background-size: cover;
+    height: 75vh; 
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 100px; 
+}
+
+.inicio .contenedor-banner {
+    padding: 10px;
+    background-color: #2BD2FF;
+    max-width: 175px; 
+    height: 275px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+
+/* contenedor de imagen de perfil*/
+.inicio .contenedor-banner img {
+    margin-top: 25px;
+    border: 3.5px solid #fcfcfc; 
+    display: block;
+    width: 65%; 
+    margin: auto;
+    border-radius: 60%;
+}
+
+.inicio .contenedor-banner h1 {
+    margin-top: 17.5px; 
+    font-size: 20px; 
+    font-family: "Righteous";
+}
+
+.inicio .contenedor-banner h2 {
+    font-size: 7.5px; 
+    font-weight: normal;
+}
+
+.inicio .contenedor-banner .redes a {
+    color: #fff;
+    display: inline-block;
+    border: 0.5px; 
+    border-radius: 0.5%;
+    text-decoration: none;
+    line-height: 21px; 
+    margin: 21px 2.5px; 
+    font-size: 20px; 
+    transition: 0.25s; 
+}
+
+.inicio .contenedor-banner .redes a:hover {
+    background-color: #2BFF88;
+}
+
+/* Sobremi */
+.sobremi {
+    background-color: #fff;
+    width: 300px; 
+    height: 125px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-top:100px;
+    scroll-margin-top: 550px;
+}
+
+.sobremi h2 {
+    font-size: 18px; 
+}
+
+/* Conocimientos */
+.conocimientos {
+    background-color: #fff;
+    width: 500px; 
+    height: 250px;  
+    margin: 0 auto;
+    margin-top: 350px;
+    margin-bottom:200px;
+    text-align: center;
+    scroll-margin-top:100px;
+   
+}
+
+.conocimientos h3 {
+    text-align: center;
+    font-size: 15px; 
+    margin-bottom: 15px; 
+}
+
+.conocimientos i {
+    font-size: 60px; 
+    margin: 25px; 
+}
+
+.conocimientos h4 {
+    text-align: center;
+    font-size: 15px; 
+    margin-top: 37.5px;
+    margin-bottom: 7.5px; 
+}
+
+.conocimientos p {
+    text-align: left;
+}
+
+.conocimientos .formacion {
+    margin-top: 100px;
+}
+
+/* Proyectos */
+.proyectos {
+    margin: 0 auto;
+    margin-top: 350px; 
+    text-align: center;
+}
+
+.proyectos h4 {
+    font-size: 15px; 
+}
+
+.proyectos img {
+    width: 375px; 
+    height: 250px; 
+}
+
+
+.contenedor-form{
+  width: 100%;
+  margin: auto;
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:50px;
+  margin-top: 250px; 
+  scroll-margin-bottom: 100px;
+}
+
+.contenedor-form h2{
+ text-align: center;
+ margin-bottom:25px;
+}
+
+.contenedor-form a{
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 25px;
+    color:black;
+    font-weight: 700;
+}
+
+.contenedor-form a i{
+  color:grey;
+  margin-right: 2px;  
+}
+
+.contenedor-form .field , textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border:1px solid #dbdbdb;
+    margin-bottom: 20px;
+    outline:0px;
+}
+
+
+
+.contenedor-form .filed textarea{
+max-width: 530px;
+max-height: 530px;
+min-height: 140px;
+min-width:140px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    border: none;
+    outline: 0px;
+    background: grey;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover{
+    color: #2BD2FF;
+}

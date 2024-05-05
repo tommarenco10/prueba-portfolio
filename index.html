@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />        
+    <script src="scripts.js"></script>
+    <title>Mi pagina</title>
+</head>
+<body>
+
+    <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="https://github.com/tommarenco10" target="_blank">Tomi</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    </div>
+    <section id="inicio" class="inicio">
+            <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="foto-inicio-modified.png" alt="Tomás Leonel Marenco">
+            </div>
+            <h1>Tomás Leonel Marenco</h1>
+            <h2>Estudiante de programación-Desarollo Fullstack</h2>
+            <div class="redes">
+                <a href="https://www.instagram.com/tommarenco/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/tommarenco10" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tom%C3%A1s-leonel-marenco-8b0b8b205/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </section>
+    
+    <section id="sobremi" class="sobremi">
+        <div>
+            <h2>¡Hola mundo!</h2>
+            <p>Soy Tomas, un apasionado de la tecnología desde que era niño.</p>
+            <p>Crecí jugando y aprendiendo en la computadora, y ahora, como estudiante de programación, estoy muy feliz de aprender, entender cómo funcionaban las cosas que disfruté y poder crear mis propias soluciones.</p>
+            <p>Únete a mí en este viaje mientras comparto mis proyectos y descubrimientos tecnológicos.</p>
+            <p>¡Bienvenido a mi primera página!</p>
+        </div>
+    </section>
+    
+    <section id="conocimientos" class="conocimientos">
+        <h3>Conocimientos</h3>
+        <div>
+            <i class="devicon-csharp-plain colored"></i>
+            <i class="devicon-cplusplus-plain colored"></i>
+            <i class="devicon-dotnetcore-plain colored"></i>            
+        </div>
+        <div id="formacion"class="formacion">
+        <h4>Formación</h4><br>
+        <p>● Tecnico Electromecánico|Instituto D.J.S.F</p><br>
+        <p>● Estudiante de la carrera de moldes matrices y dipositivos|UTN-Gral Pacheco</p><br>
+        <p>● Estudiante de la carrera de Tecnicatura Universitaria en Programación|UTN-Gral Pacheco</p><br>
+        </divd>
+    </section>
+
+    <section id="proyectos" class="proyectos">   
+        <div>
+            <h4>Proyectos</h4><br>
+            <img src="app.png" alt="en proceso" >
+            <p>Programa de gestion de base de datos con .net</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="contenedor-form">
+       <div class="field">
+        <h2>Contacto</h2>
+        <br>
+        <a href="#"><i class="fa-solid fa-phone"></i> 1173687419</a>
+        <br>
+        <a href="#"><i class="fa-solid fa-envelope"></i> tommarenco10@gmail.com</a>
+        <br>
+        <a href="#"><i class="fa-solid fa-map-marked "></i> San Isidro,Buenos Aires,Argentina</a>
+        </div>
+
+        <form action="formulario.php" autocomplete="off">
+            <input type="text" name="name" placeholder="Ingresa tu nombre" class="field">
+            <input type="text" name="email" placeholder="Ingresa tu correo electronico" class="field">
+            <textarea name="messagefield" placeholder="Ingresa tu mensaje"></textarea>
+            <input type="submit" name="send" value="Enviar mensaje" class="btn-enviar">
+        </form>
+
+    </section>
+</body>
+</html>
